@@ -1,10 +1,9 @@
-import Alertas from "@/components/Inicio/Alertas";
-import Bancos from "@/components/Inicio/Bancos";
-import Hero from "@/components/Inicio/Hero";
-import Pasos from "@/components/Inicio/Pregunta";
-import Pregunta from "@/components/Inicio/Pregunta"
-import Testimonios from "@/components/Inicio/Testimonios";
-import Trayectoria from "@/components/Inicio/Trayectoria";
+import Alertas from "@/components/public/Inicio/Alertas";
+import Bancos from "@/components/public/Inicio/Bancos";
+import Hero from "@/components/public/Inicio/Hero";
+import Pasos from "@/components/public/Inicio/Pasos";
+import Testimonios from "@/components/public/Inicio/Testimonios";
+import Trayectoria from "@/components/public/Inicio/Trayectoria";
 
 
 export default function Page() {
@@ -13,7 +12,6 @@ export default function Page() {
       <Hero />
       <Bancos/>
       <Alertas/>
-      
       <Pasos/>
       <Trayectoria/>
       <Testimonios/>

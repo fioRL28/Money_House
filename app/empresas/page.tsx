@@ -1,4 +1,4 @@
-import EmpresasBeneficios from "@/components/empresas/empresas";
+import EmpresasBeneficios from "@/components/public/empresas/empresas";
 
 export default function Page() {
   return (

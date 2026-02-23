@@ -1,4 +1,4 @@
-import Ayuda from "@/components/ayuda/ayuda";
+import Ayuda from "@/components/public/ayuda/ayuda";
 
 export default function Page() {
   return (
